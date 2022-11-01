@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//1. Write a program to print Hello Students on the screen.
+
 /*
 int main(){
 
@@ -8,6 +10,7 @@ int main(){
      0;
 }
 
+//2. Write a program to print Hello in the first line and Students in the second line
 
 int main(){
 
@@ -16,6 +19,7 @@ int main(){
      0;
 }
 
+//. 3. Write program to print "iNeuron" on the screen. (Remember to print in double quotes) 
 
 int main(){
 
@@ -24,11 +28,13 @@ int main(){
      0;
 }
 
+// 4. WAP to find the area of the circle. Take radius of circle from user as input and print the result in below given format.
+
 
 int main()
 {
     float R,A;
-    //float pi=3.141;  dont use this,u r just increasing the work for compiler use it directly but it can be used when it is used in lot of spaces but by using const world priorto float
+    //float pi=3.141;  dont use this,u r just increasing the work for compiler use it directly but it can be used when it is used in lot of spaces but by using const world prior to float
 
     printf("type the radius of circle: ");
     scanf("%f",&R);
@@ -42,7 +48,7 @@ int main()
 }
 
 
-//WAP to calculate the length of String using printf function
+//6. WAP to print the name of the user in double quotes.
 
 
 int main(){
@@ -57,6 +63,8 @@ int main(){
      0;
 }
 
+//7. WAP to print "%d" on the screen.
+
 
 int main(){
 
@@ -67,6 +75,7 @@ int main(){
 }
 
 
+//8. WAP to print "\n" on the screen
 
 int main(){
 
@@ -76,6 +85,7 @@ int main(){
      0;
 }
 
+//9. WAP to print "\\" on the screen
 
 int main(){
 
@@ -86,8 +96,11 @@ int main(){
      0;
 }
 
+//10. WAP to take date as an input in below given format and convert the date format and display the result as given below.
+//User Input date format – “DD/MM/YYYY” (27/11/2022)
 
-*/
+
+
 int main(){
 
     int d, m, year;
@@ -101,7 +114,11 @@ int main(){
     
     return 0;
 }
-/*
+
+//11. WAP to take time as an input in below given format and convert the time format and display the result as given below.
+//User Input date format – “HH:MM”
+
+
 
 int main(){
 
@@ -116,7 +133,7 @@ int main(){
 }
 
 
-
+//q12/q5
 
 int main(){
 
@@ -128,5 +145,5 @@ int main(){
      0;
 }
 
-*/
 
+*/

@@ -1,7 +1,20 @@
 //8. Write a program to print size of an int, a float, a char and a double type variable
 
+//printing directly
 #include<stdio.h>
-///*
+int main(){
+
+
+    printf("size of integer variable is %d \n",sizeof(int));
+    printf("size of floating variable is %d \n",sizeof(float));
+    printf("size of character variable is %d \n",sizeof(char));
+    printf("size of double variable is %d \n",sizeof(double));
+
+    return 0;
+}
+/*
+include<stdio.h>
+
 int main(){
 
     int a,w;
@@ -21,19 +34,4 @@ int main(){
 
     return 0;
 }
-//*/
-/*
-//printing directly
-
-#include<stdio.h>
-int main(){
-
-    
-
-    printf("size of integer variable is %zu \n",sizeof(int));
-    printf("size of floating variable is %zu \n",sizeof(float));
-    printf("size of character variable is %zu \n",sizeof(char));
-    printf("size of double variable is %zu \n",sizeof(double));
-
-    return 0;
-}*/
+*/

@@ -14,7 +14,7 @@ int main(){
     return 0;
 }*/
 
-//better aproach no need to increase nwork of compiler
+//better aproach no need to increase work of compiler
 
 
 int main(){
